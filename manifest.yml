@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: hashtag-analysis
+  host: hashtag-analysis
+  disk_quota: 1024M
+  services:
+  - hashtag-analysis-cloudantNoSQLDB
